@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F91E4D42956A242002511FC /* GasTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E4D32956A242002511FC /* GasTrackApp.swift */; };
+		9F91E4D62956A242002511FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E4D52956A242002511FC /* ContentView.swift */; };
+		9F91E4D82956A245002511FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F91E4D72956A245002511FC /* Assets.xcassets */; };
+		9F91E4DB2956A245002511FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F91E4DA2956A245002511FC /* Preview Assets.xcassets */; };
+		9F91E4E52956A246002511FC /* GasTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E4E42956A246002511FC /* GasTrackTests.swift */; };
+		9F91E4EF2956A246002511FC /* GasTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E4EE2956A246002511FC /* GasTrackUITests.swift */; };
+		9F91E4F12956A246002511FC /* GasTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E4F02956A246002511FC /* GasTrackUITestsLaunchTests.swift */; };
+		9F91E5002956A575002511FC /* GasImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E4FF2956A575002511FC /* GasImage.swift */; };
+		9F91E5062956C392002511FC /* GreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E5052956C392002511FC /* GreenBackground.swift */; };
+		9F91E5082957785D002511FC /* graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E5072957785D002511FC /* graph.swift */; };
+		9F91E50E295A5671002511FC /* list4graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91E50D295A5671002511FC /* list4graph.swift */; };
+		9F91E514295A9FEF002511FC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F91E513295A9FEF002511FC /* Property List.plist */; };
+		9F91E515295AA065002511FC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F91E513295A9FEF002511FC /* Property List.plist */; };
+		9F91E516295AA066002511FC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F91E513295A9FEF002511FC /* Property List.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F91E4E12956A246002511FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F91E4C82956A242002511FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F91E4CF2956A242002511FC;
+			remoteInfo = GasTrack;
+		};
+		9F91E4EB2956A246002511FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F91E4C82956A242002511FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F91E4CF2956A242002511FC;
+			remoteInfo = GasTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F91E4D02956A242002511FC /* GasTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F91E4D32956A242002511FC /* GasTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTrackApp.swift; sourceTree = "<group>"; };
+		9F91E4D52956A242002511FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F91E4D72956A245002511FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F91E4DA2956A245002511FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F91E4E02956A246002511FC /* GasTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F91E4E42956A246002511FC /* GasTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTrackTests.swift; sourceTree = "<group>"; };
+		9F91E4EA2956A246002511FC /* GasTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F91E4EE2956A246002511FC /* GasTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTrackUITests.swift; sourceTree = "<group>"; };
+		9F91E4F02956A246002511FC /* GasTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F91E4FF2956A575002511FC /* GasImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasImage.swift; sourceTree = "<group>"; };
+		9F91E5052956C392002511FC /* GreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenBackground.swift; sourceTree = "<group>"; };
+		9F91E5072957785D002511FC /* graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graph.swift; sourceTree = "<group>"; };
+		9F91E50D295A5671002511FC /* list4graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list4graph.swift; sourceTree = "<group>"; };
+		9F91E513295A9FEF002511FC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F91E4CD2956A242002511FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F91E4DD2956A246002511FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F91E4E72956A246002511FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F91E4C72956A242002511FC = {
+			isa = PBXGroup;
+			children = (
+				9F91E4D22956A242002511FC /* GasTrack */,
+				9F91E4E32956A246002511FC /* GasTrackTests */,
+				9F91E4ED2956A246002511FC /* GasTrackUITests */,
+				9F91E4D12956A242002511FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F91E4D12956A242002511FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F91E4D02956A242002511FC /* GasTrack.app */,
+				9F91E4E02956A246002511FC /* GasTrackTests.xctest */,
+				9F91E4EA2956A246002511FC /* GasTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F91E4D22956A242002511FC /* GasTrack */ = {
+			isa = PBXGroup;
+			children = (
+				9F91E4D32956A242002511FC /* GasTrackApp.swift */,
+				9F91E4D52956A242002511FC /* ContentView.swift */,
+				9F91E4D72956A245002511FC /* Assets.xcassets */,
+				9F91E4D92956A245002511FC /* Preview Content */,
+			);
+			path = GasTrack;
+			sourceTree = "<group>";
+		};
+		9F91E4D92956A245002511FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F91E4DA2956A245002511FC /* Preview Assets.xcassets */,
+				9F91E4FF2956A575002511FC /* GasImage.swift */,
+				9F91E5052956C392002511FC /* GreenBackground.swift */,
+				9F91E5072957785D002511FC /* graph.swift */,
+				9F91E50D295A5671002511FC /* list4graph.swift */,
+				9F91E513295A9FEF002511FC /* Property List.plist */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F91E4E32956A246002511FC /* GasTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F91E4E42956A246002511FC /* GasTrackTests.swift */,
+			);
+			path = GasTrackTests;
+			sourceTree = "<group>";
+		};
+		9F91E4ED2956A246002511FC /* GasTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F91E4EE2956A246002511FC /* GasTrackUITests.swift */,
+				9F91E4F02956A246002511FC /* GasTrackUITestsLaunchTests.swift */,
+			);
+			path = GasTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F91E4CF2956A242002511FC /* GasTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F91E4F42956A246002511FC /* Build configuration list for PBXNativeTarget "GasTrack" */;
+			buildPhases = (
+				9F91E4CC2956A242002511FC /* Sources */,
+				9F91E4CD2956A242002511FC /* Frameworks */,
+				9F91E4CE2956A242002511FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasTrack;
+			productName = GasTrack;
+			productReference = 9F91E4D02956A242002511FC /* GasTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F91E4DF2956A246002511FC /* GasTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F91E4F72956A246002511FC /* Build configuration list for PBXNativeTarget "GasTrackTests" */;
+			buildPhases = (
+				9F91E4DC2956A246002511FC /* Sources */,
+				9F91E4DD2956A246002511FC /* Frameworks */,
+				9F91E4DE2956A246002511FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F91E4E22956A246002511FC /* PBXTargetDependency */,
+			);
+			name = GasTrackTests;
+			productName = GasTrackTests;
+			productReference = 9F91E4E02956A246002511FC /* GasTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F91E4E92956A246002511FC /* GasTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F91E4FA2956A246002511FC /* Build configuration list for PBXNativeTarget "GasTrackUITests" */;
+			buildPhases = (
+				9F91E4E62956A246002511FC /* Sources */,
+				9F91E4E72956A246002511FC /* Frameworks */,
+				9F91E4E82956A246002511FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F91E4EC2956A246002511FC /* PBXTargetDependency */,
+			);
+			name = GasTrackUITests;
+			productName = GasTrackUITests;
+			productReference = 9F91E4EA2956A246002511FC /* GasTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F91E4C82956A242002511FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9F91E4CF2956A242002511FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9F91E4DF2956A246002511FC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9F91E4CF2956A242002511FC;
+					};
+					9F91E4E92956A246002511FC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9F91E4CF2956A242002511FC;
+					};
+				};
+			};
+			buildConfigurationList = 9F91E4CB2956A242002511FC /* Build configuration list for PBXProject "GasTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F91E4C72956A242002511FC;
+			productRefGroup = 9F91E4D12956A242002511FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F91E4CF2956A242002511FC /* GasTrack */,
+				9F91E4DF2956A246002511FC /* GasTrackTests */,
+				9F91E4E92956A246002511FC /* GasTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F91E4CE2956A242002511FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F91E514295A9FEF002511FC /* Property List.plist in Resources */,
+				9F91E4DB2956A245002511FC /* Preview Assets.xcassets in Resources */,
+				9F91E4D82956A245002511FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F91E4DE2956A246002511FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F91E515295AA065002511FC /* Property List.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F91E4E82956A246002511FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F91E516295AA066002511FC /* Property List.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F91E4CC2956A242002511FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F91E4D62956A242002511FC /* ContentView.swift in Sources */,
+				9F91E50E295A5671002511FC /* list4graph.swift in Sources */,
+				9F91E5062956C392002511FC /* GreenBackground.swift in Sources */,
+				9F91E4D42956A242002511FC /* GasTrackApp.swift in Sources */,
+				9F91E5002956A575002511FC /* GasImage.swift in Sources */,
+				9F91E5082957785D002511FC /* graph.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F91E4DC2956A246002511FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F91E4E52956A246002511FC /* GasTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F91E4E62956A246002511FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F91E4F12956A246002511FC /* GasTrackUITestsLaunchTests.swift in Sources */,
+				9F91E4EF2956A246002511FC /* GasTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F91E4E22956A246002511FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F91E4CF2956A242002511FC /* GasTrack */;
+			targetProxy = 9F91E4E12956A246002511FC /* PBXContainerItemProxy */;
+		};
+		9F91E4EC2956A246002511FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F91E4CF2956A242002511FC /* GasTrack */;
+			targetProxy = 9F91E4EB2956A246002511FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F91E4F22956A246002511FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F91E4F32956A246002511FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F91E4F52956A246002511FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A3P6Z84B8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Liu.GasTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F91E4F62956A246002511FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A3P6Z84B8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Liu.GasTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F91E4F82956A246002511FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3P6Z84B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Liu.GasTrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasTrack";
+			};
+			name = Debug;
+		};
+		9F91E4F92956A246002511FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3P6Z84B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Liu.GasTrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasTrack";
+			};
+			name = Release;
+		};
+		9F91E4FB2956A246002511FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3P6Z84B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Liu.GasTrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasTrack;
+			};
+			name = Debug;
+		};
+		9F91E4FC2956A246002511FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A3P6Z84B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Liu.GasTrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F91E4CB2956A242002511FC /* Build configuration list for PBXProject "GasTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F91E4F22956A246002511FC /* Debug */,
+				9F91E4F32956A246002511FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F91E4F42956A246002511FC /* Build configuration list for PBXNativeTarget "GasTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F91E4F52956A246002511FC /* Debug */,
+				9F91E4F62956A246002511FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F91E4F72956A246002511FC /* Build configuration list for PBXNativeTarget "GasTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F91E4F82956A246002511FC /* Debug */,
+				9F91E4F92956A246002511FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F91E4FA2956A246002511FC /* Build configuration list for PBXNativeTarget "GasTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F91E4FB2956A246002511FC /* Debug */,
+				9F91E4FC2956A246002511FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F91E4C82956A242002511FC /* Project object */;
+}
