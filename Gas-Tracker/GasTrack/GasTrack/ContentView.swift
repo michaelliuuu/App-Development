@@ -28,6 +28,14 @@ struct ContentView: View {
         }
     }
     
+    // Retrieve the saved list from UserDefaults
+    init() {
+        let defaults = UserDefaults.standard
+        if let savedList = defaults.object(forKey: "savedList") as? [gasList] {
+            list = savedList
+        }
+    }
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -81,6 +89,10 @@ struct ContentView: View {
                         let num1 = Double(self.text1) ?? 0
                         let num2 = (Double(self.text2) ?? 0) / 100
                         self.text3 = "$" + String(format : "%.2f", num1*num2)
+                        
+                        //Saves info
+                        let defaults = UserDefaults.standard
+                        defaults.set(list, forKey: "savedList")
                         
                         //if you want to cap the amount created in the list
                         /*if(currentDay > 10) {
